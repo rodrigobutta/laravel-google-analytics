@@ -35,7 +35,7 @@ class CoreServiceProvider extends ServiceProvider
     {
         $this->app->singleton(Core::class, function ($app) {
             return new Core(
-                config('google')
+                config('laravel-google-analytics')
             );
         });
     }
@@ -48,7 +48,7 @@ class CoreServiceProvider extends ServiceProvider
     private function publishConfig()
     {
         $this->publishes([
-            __DIR__.'/config/google.php' => config_path('google.php'),
+            __DIR__.'/config/laravel-google-analytics.php' => config_path('laravel-google-analytics.php'),
         ]);
     }
 }
