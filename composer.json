@@ -1,0 +1,21 @@
+{
+  "name": "rodrigobutta/laravel-google-analytics",
+  "description": "Laravel Google Analytics",
+  "keywords": ["laravel", "google", "analytics", "api", "service"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rodrigo Butta",
+      "email": "rbutta@gmail.com"
+    }
+  ],
+  "require": {
+    "google/apiclient": "^2.1",
+    "nesbot/carbon": "^1.21"
+  },
+  "autoload": {
+    "psr-4": {
+      "RodrigoButta\\LaravelGoogleAnalytics\\": "src/"
+    }
+  }
+}
