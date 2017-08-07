@@ -23,9 +23,9 @@ class Core
      *
      * @param array $config
      */
-    public function __construct($config = null)
+    public function __construct()
     {
-        $this->config = $config;
+        $this->config = config('laravel-google-analytics');
 
         $this->instantiateClient();
     }
