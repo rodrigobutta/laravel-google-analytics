@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "espasa-176200",
+  "private_key_id": "6d62fa04968065d6fef88a8dd34595bfecb5afee",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCgYhCeZ6F9H+O0\nMoLdxyp82yTg2t/4ClbZ4jEk/plwbI9okXyhwYHA7+F/0cbi/1W6GzReKi6PCszx\n5ID1CLD6yaUdsfPd3x/nvN6HUBM8AOchjc0gahe71tldd3GSLRjZP2pho688txhk\nBUw0k9mfvTs4GFb/9j3aNif2IVpL3VkwvRKHw2hQHnxbqC2kaGJSd3iVulzaPiFK\no2EQ+LydopmNNhkMPfLDEMrAQcQWdL3fulhUKLKI1GyCmQbiJd0Ep5SVIj+CTy9r\navWHqa67hLV8pTpbFocIxzSbBBcv98FJRRFOBNortDQtkNoXLKM6wJ+YaVCsyVdd\nf7jAt98LAgMBAAECggEABtSYIJiz7xWa0lVimd2eCoF1cJ4anY6aR98IeMdQ1u46\ndG72qold5GtvZHeHIOPGFKqM0/XUYjwP90uOsm8Tb9O7/yfDPp3+gWq/Hae5m8LR\no1+/iuyIAOYwOCO3BE1gRRk4+UwC3+TeIYDRJST8KmM2iY0OCwpuHws2hOwYfimv\nphtQozraAU9VsQxPjVmCOAbwzJkD/mdu8Uz14YgLc/bEDaf4D63bojFW1ZWk8txN\ns87HWTHfOs4oIkn2pD8lCH4qPdSh2z2m5U+lJZemlne5EmL8UNNltQxnkdHRILDH\nGzy82dTXfbtEN6LpmWkt+4pHu/buuJ/uZJXOmYBtAQKBgQDUYXOrOUQA9uh4ywzI\nTh9+SjHSwPuAg50nueQ0lh18fbCaSku1SGemEJgSr3FzmbMZ8htq7w6bLI7gv996\nkqTqVAw1taVFtVR7BjjYvmzPayZdVS8oONSYS+H3NtAPPn4drzz/FzdxU8Uxt3iI\naXfVjV0b94Bb9Kv8VeyZZAu4hwKBgQDBUq8Fmw8l00ywXtqbZrzdNMMLatYfpxwA\nGhc33oL8qLW+7/VHgb7ClTxgCCsmSmt+k++YhqlMVSx93CHmpTr15xnQumoW/+X2\npqJQpaitbYw0qKNbUrY+1vQ5pBN5sLrMkYatVNAPakTs1aUWVjc5MDfXMYBFeSKU\n/WfyQi76XQKBgByHyuYhl0UZ5jjz7g+qjwiEJxVM33xwMdh4XHPEBsoGiIbxnCIK\nTAI/EG7SKseAylKd95jx7GBkJ/2BSSBKOuVPzSQZ9s3agjLUryZOzoc+ubSoEOGy\nYLzk1MJFFsY1evO56tPJ5qTOwBrhrsuEf5ismOl84j14LPKFCHfCvOBZAoGAYccr\nJL+vYqdDg3UGRlEpNwynlc+8axf/ToHjums9fwLpoaAGQ9t4mzwV5FBdWqmLQuMZ\n7OA3Ipd1wFalgt2RO6xeXzbZz7YwHpdbQ0T2Unk0z7F3pgnoiVH5BmpZO1RKtoro\nPiTGcvWB1POd4vVKSw97PskXoovJFOgyOdKFpjUCgYA0bMKp6/ij9RACw3I0n1Rv\nN1snS+uePswChzhwLKq8PpiI8cimejNOQ991Coi9UAd/fL+N+N5KhkUF7Y5DcANM\nMjJiVav825g/8n4RoUZ7PXuW5rm9jrcoJ3tTGkh6Os8OWsTSj58d9X3ngp50MwPl\nSBO1TDMIKQHqpol9P+R0Kg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-dashboard@espasa-176200.iam.gserviceaccount.com",
+  "client_id": "115603008883421717133",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-dashboard%40espasa-176200.iam.gserviceaccount.com"
+}
