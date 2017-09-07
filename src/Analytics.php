@@ -3,7 +3,9 @@
 namespace RodrigoButta\LaravelGoogleAnalytics;
 
 use Carbon\Carbon;
+
 use RodrigoButta\LaravelGoogleAnalytics\Core\Core;
+
 use RodrigoButta\LaravelGoogleAnalytics\Traits\HelperFunctions;
 use RodrigoButta\LaravelGoogleAnalytics\Traits\Handlers\SortHandler;
 use RodrigoButta\LaravelGoogleAnalytics\Traits\Handlers\DatesHandler;
@@ -14,7 +16,12 @@ use RodrigoButta\LaravelGoogleAnalytics\Traits\Handlers\SegmentHandler;
 use RodrigoButta\LaravelGoogleAnalytics\Traits\Handlers\DimensionsHandler;
 use RodrigoButta\LaravelGoogleAnalytics\Traits\Filters\CustomCommonFilters;
 use RodrigoButta\LaravelGoogleAnalytics\Traits\Filters\GoogleCommonFilters;
+
+
 use RodrigoButta\LaravelGoogleAnalytics\Exceptions\UndefinedViewIdException;
+use RodrigoButta\LaravelGoogleAnalytics\Exceptions\UndefinedMetricsException;
+use RodrigoButta\LaravelGoogleAnalytics\Exceptions\UndefinedConfigKeyException;
+use RodrigoButta\LaravelGoogleAnalytics\Exceptions\InvalidPeriodException;
 
 class Analytics
 {
@@ -44,6 +51,7 @@ class Analytics
     protected $sort;
     protected $filters;
     protected $segment;
+    protected $max_results;
 
     /**
      * Time period.
@@ -69,6 +77,13 @@ class Analytics
 
         // $this->setupDates();
     }
+
+
+    public function setMaxResults($val)
+    {
+        $this->max_results = $val;
+    }
+
 
     /**
      * Getter for viewId.
@@ -168,6 +183,9 @@ class Analytics
         if (!$this->metricsAreSet()) {
             throw new UndefinedMetricsException();
         }
+
+        // var_dump($this->getOptions());
+
 
         $result = $this->service->data_ga->get(
             $this->viewId,

@@ -9,7 +9,7 @@ trait ParamsHandler
         'dimensions',
         'sort',
         'filters',
-        'segment',
+        'segment'
     ];
 
     /**
@@ -24,7 +24,7 @@ trait ParamsHandler
             'dimensions' => $this->dimensions,
             'sort'       => $this->sort,
             'filters'    => $this->filters,
-            'segment'    => $this->segment,
+            'segment'    => $this->segment
         ];
     }
 

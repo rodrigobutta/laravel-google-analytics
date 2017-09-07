@@ -33,6 +33,11 @@ trait HelperFunctions
             $options['sort'] = $this->sort;
         }
 
+
+        if ($this->max_results!='') {
+            $options['max-results'] = $this->max_results;
+        }
+
         return $options;
     }
 
